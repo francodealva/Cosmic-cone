@@ -23,3 +23,9 @@ Run the derivation yourself:
 
 ```bash
 python derive.py
+## Files
+| File | Description |
+| --- | --- |
+| `derive.py` | Direct calculation: C = 379 Gpc, f = 472.79 MHz |
+| `main.pdf` | Paper with full derivation and SKA-Low test |
+| `LICENSE` | MIT |
