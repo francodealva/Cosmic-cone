@@ -1,10 +1,10 @@
-# Cosmic Cone: First Direct Measurement of Universe Circumference
+# Direct Measurement of Universe Circumference
 
 **If CHIME, DESI, and Pantheon+ are all correct, the universe is closed with C = 379 Gpc.**
 
 This repo provides the 12-line geometric derivation and falsifiable prediction for SKA-Low.
 
-## Prediction: SKA-Low Test
+### Prediction: SKA-Low Test
 
 **Frequency to search:** f = 472,789,997.636 Hz
 
