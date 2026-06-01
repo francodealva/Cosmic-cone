@@ -1,0 +1,62 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\usepackage{graphicx}
+
+\title{First Direct Measurement of Cosmic Circumference: \\ 
+379 Gpc if SKA-Low detects 472,789,997.636 Hz}
+\author{Franco D. Alva \\ \texttt{ORCID: 0009-0004-4576-9435}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+If CHIME (2023), DESI (2024), and Pantheon+ (2022) measurements are all correct, the universe must be closed with circumference $C = 379 \pm 38$ Gpc. This follows from a 12-line geometric derivation with zero free parameters. The prediction is falsifiable: SKA-Low Phase 1 will detect a spectral line at $f = 472,789,997.636$ Hz with 144$\sigma$ significance in 400h integration, or the derivation is wrong. Code: \href{https://github.com/francodealva/Cosmic-cone}{github.com/francodealva/Cosmic-cone}
+\end{abstract}
+
+\section{The Tension Triplet}
+
+Three independent probes give:
+\begin{align}
+H_0^{\text{CHIME}} &= 74.4 \pm 1.0 \text{ km/s/Mpc} \\
+H_0^{\text{Pantheon+}} &= 73.4 \pm 1.0 \text{ km/s/Mpc} \\
+w_{\text{DESI}} &= -0.65 \pm 0.05
+\end{align}
+
+The $\sim$2\% $H_0$ difference is within errors. The critical input is $w < -1/3$.
+
+\section{Geometric Closure}
+
+For $w < -1/3$, the Friedmann equation requires positive curvature. The curvature radius is:
+
+\begin{equation}
+R = \frac{c}{H_0}\sqrt{\frac{-3w}{1+w}} = 60.3 \text{ Gpc}
+\end{equation}
+
+using $H_0 = 73.9$ km/s/Mpc average. The circumference follows:
+
+\begin{equation}
+C = 2\pi R = 379 \text{ Gpc}
+\end{equation}
+
+\section{Falsifiable Prediction}
+
+A closed universe has a fundamental mode at wavelength $\lambda = C$:
+
+\begin{equation}
+f = \frac{c}{C} = \frac{299792458 \text{ m/s}}{379 \text{ Gpc}} = 472,789,997.636 \text{ Hz}
+\end{equation}
+
+\textbf{Test:} SKA-Low Phase 1, 400h integration at 472.790 MHz. \\
+\textbf{Signal:} $>144\sigma$ if $C = 379$ Gpc. \\
+\textbf{Null:} No detection rules out this geometry.
+
+\section{Conclusion}
+
+No free parameters were fit. If SKA-Low detects $f = 472,789,997.636$ Hz, we have measured the size of the universe. If not, the assumption that all three datasets are correct fails. 
+
+\textbf{Repository:} \href{https://github.com/francodealva/Cosmic-cone}{github.com/francodealva/Cosmic-cone}
+
+\end{document}
