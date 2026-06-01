@@ -13,8 +13,9 @@ This repo provides the 12-line geometric derivation and falsifiable prediction f
 
 **Telescope time needed:** 400 hours with SKA-Low Phase 1
 
-## Quick Verification
+### Quick Verification
 
 Run the derivation yourself:
-
+```bash
+python derive.py
 
